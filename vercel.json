@@ -1,7 +1,10 @@
 {
   "routes": [
     { "src": "/en", "dest": "/index_en.html" },
+    { "src": "/en/(.*)", "dest": "/$1" },
     { "src": "/el", "dest": "/index_el.html" },
+    { "src": "/el/(.*)", "dest": "/$1" },
+    { "src": "/(.+\\.(ico|jpg|jpeg|png|gif|svg|js|css))", "dest": "/Assets/$1" },
     { "src": "/(.*)", "dest": "/index_el.html" }
   ]
 }
