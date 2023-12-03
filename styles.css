@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;1,100;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#languageButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 15px;
+    background-color: #FEA825;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 2em;
+    
+}
+
+#languageButton:hover {
+    background-color: #FF8F00;
+    transform: scale(1.2); /* Adjust the scale factor as needed */
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh; 
+}
+
+#paintImage {
+    max-width: 80%; 
+    height: auto;
+    margin-top: 5px;
+  /*transition: transform 0.3s ease-in-out;*/
+}
+
+/*
+#paintImage:hover {
+    transform: scale(1.05);
+}
+*/
+#address {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+#mapButton {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #FEA825;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.5s ease-in-out;
+}
+
+#mapButton:hover {
+    background-color: #FF8F00;
+}
+
+#mapButton .material-icons {
+    margin-left: 10px;
+}
+
+footer {
+    text-align: left;
+    padding: 10px;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
