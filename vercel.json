@@ -1,0 +1,7 @@
+{
+  "routes": [
+    { "src": "/en", "dest": "/index_en.html" },
+    { "src": "/el", "dest": "/index_el.html" },
+    { "src": "/(.*)", "dest": "/index_el.html" }
+  ]
+}
