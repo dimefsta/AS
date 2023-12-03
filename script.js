@@ -5,7 +5,7 @@ function openGoogleMaps() {
     window.open(googleMapsUrl, '_blank');
 }
 
-function toggleLanguage() {
+/*function toggleLanguage() {
     const currentLanguage = document.documentElement.lang;
     const newLanguage = currentLanguage === 'el' ? 'en' : 'el';
 
@@ -25,6 +25,6 @@ function toggleLanguage() {
         })
         .catch(error => console.error('Error loading HTML:', error));
 }
-
+*/
 
 document.getElementById("mapButton").addEventListener("click", openGoogleMaps);
