@@ -12,7 +12,7 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
-
+<!--
 #languageButton {
     position: absolute;
     top: 20px;
@@ -32,7 +32,7 @@ body {
     transform: scale(1.2); /* Adjust the scale factor as needed */
 }
 
-
+-->
 section {
     display: flex;
     flex-direction: column;
